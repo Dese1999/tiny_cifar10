@@ -55,7 +55,7 @@ class Config:
             action="store_true",
             help="Use SNAPit pruning (sets prune_criterion to SNAPit)"
         )
-         parser.add_argument(
+        parser.add_argument(
             "--cnipit",
             action="store_true",
             help="Use CNIPit pruning (sets prune_criterion to CNIPit)"
